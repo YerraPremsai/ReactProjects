@@ -1,0 +1,23 @@
+export default function CoreConcept({ image, title, description }) {
+    return (
+
+        <li>
+            <img src={image} alt={title} />
+            <h3>{title}</h3>
+            <p>{description}</p>
+        </li>
+
+    );
+}
+// function CoreConcept(props) {
+//   return (
+
+//     <ul>
+//       <img src={props.image} alt={props.title} />
+//       <p>{props.title}</p>
+//       <p>{props.description}</p>
+//     </ul>
+
+//   );
+// }
+// we can use both above or below code function CoreConcepts
